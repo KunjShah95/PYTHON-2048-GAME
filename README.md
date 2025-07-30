@@ -1,3 +1,38 @@
+# 2048 Game - Windows Desktop Edition
+
+## How to Play
+1. Download and extract the `release` folder or the provided zip file.
+2. Double-click `2048_Game.exe` to start the game on your Windows laptop or PC.
+3. Use the arrow keys to move tiles and combine numbers to reach 2048!
+
+### Controls
+- Arrow Keys: Move tiles
+- U: Undo last move
+- R: Redo move
+- ESC: Restart game
+
+## Distribution
+- Share the `2048_Game.exe` file or the zipped `release` folder with anyone.
+- No Python or installation required—just run the executable.
+
+## System Requirements
+- Windows 7 or later
+- No installation needed
+- ~15 MB disk space
+
+## Troubleshooting
+- If Windows Defender warns about the file, click "More info" > "Run anyway" (this is a common false positive for PyInstaller apps).
+- If the game doesn't start, try running as administrator or check antivirus settings.
+
+## Files Included
+- `2048_Game.exe`: The game executable
+- `DISTRIBUTION_README.txt`: Quick start guide
+- `Play_2048_Game.bat`: Optional launcher batch file
+
+## Clean Project
+Unnecessary files have been removed for easy sharing. Only essential files for running and distributing the game are included in the `release` folder.
+
+Enjoy playing and sharing the 2048 Game!
 # 2048 Game - Python Edition
 
 A feature-rich implementation of the classic 2048 puzzle game built with Python and Pygame, featuring score tracking, undo/redo functionality, and persistent high score storage.
